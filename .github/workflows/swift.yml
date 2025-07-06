@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Run tests
-      run: xcodebuild test -scheme "PlaygroundApp"
+      run: xcodebuild test -scheme "PlaygroundApp" -allowProvisioningUpdates
